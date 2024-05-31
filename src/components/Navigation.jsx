@@ -7,8 +7,11 @@ function Navigation() {
       <Button as={Link} to="/" mr={4}>
         Home
       </Button>
-      <Button as={Link} to="/product">
+      <Button as={Link} to="/product" mr={4}>
         Product Page
+      </Button>
+      <Button as={Link} to="/blog">
+        Blog
       </Button>
     </Box>
   );
